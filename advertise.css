@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(116, 126, 134);
+    display: flex;
+    justify-content: center;
+}
+
+#Advertised{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 880px;
+    width: 800px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+#center {
+    height: 850px;
+    width: 800px;
+    border-radius: 30px;
+    background-color: white;   
+}
+
+/* nav bar */
+#name {
+    color: black;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+    /* padding-right: 20px; */
+}
+#address {
+    color: green;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+
+#left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#img{
+    position: right;
+    /* border: 2px solid black;  */
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+}
+#inner-img {
+    height: 280px;
+    width: 250px;
+    object-fit: contain;
+    object-position: center;
+    border: 2px solid black;
+    border-radius: 30px;
+}
+#inner-size {
+    height: 280px;
+    width: 250px;
+    border-radius: 30px;
+}
+#left ul {
+  /* content: "★"; */
+  list-style-type: disc;
+  list-style-position: inside; 
+  padding-left: 20px;
+  margin: 0;
+}
+
+#left li {
+  /* content: "★"; */
+  margin: 10px 0;
+  font-size: 20px;
+  color: #222;
+}
+
+.left-data {
+  display: inline;
+  font-weight: normal;
+}
+
+
+.left-data {
+    font-weight: lighter;
+    size: 20px;
+    padding-left: 25px;
+    margin-bottom: 4px;
+}
+
+#contact {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+#contact-heading {
+    padding-left: 20%;
+    padding-top: 50px;
+    color: green;
+    font-size: 45px;
+}
+
+#Name-Color {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+.Name {
+    color: rgb(53, 93, 239);
+    font-size: 25px;
+    display: inline-block;
+    padding-right: 10px;
+}
+.color {
+    display: inline-block;
+    font-size: 25px;
+    color: rgb(90, 89, 89)
+}
+
+#Loc-Color {
+    display: flex;
+    justify-content: center;
+}
+#phone-Color  {
+    
+    margin-top: 12px;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;   
+}
+
+.newPhone a{
+    text-decoration: none;
+    color: white;
+}
+.newPhone {
+    
+    background-color: rgb(21, 162, 99);
+    border-radius: 50px;
+    height: 40px;
+    width: 250px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Email-Color {
+    margin-top: 12px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;   
+}
+.newEmail a{
+    text-decoration: none;
+    color: white;
+}
+.newEmail {
+    background-color: rgb(21, 162, 99);
+    border-radius: 50px;
+    height: 40px;
+    width: 380px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* footer */
+#footer{
+    
+    border-radius: 0 0 30px 30px;
+    margin-top: 55px;
+    height: 70px;
+    width: 800px;
+    /* background-color: black; */
+}
+
+#complete {
+    margin-left: 30px;
+    height: 90%;
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#whatsApp {
+    height: 100px;
+    width: 300px;
+    color: white;
+    background-color: rgb(21, 162, 99);
+    border-radius: 30px;
+    font-size: 40px;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#call {
+    height: 100px;
+    width: 300px;
+    color: white;
+    background-color: rgb(21, 162, 99);
+    border-radius: 30px;font-size: 40px;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
